@@ -9,6 +9,7 @@ const apartments = [
         rooms: 2,
         parking: false,
         immediate: true,
+        features: ["Indorr Plubming"],
         contactDetails: {
             name: "Douglas",
             email: "doug@less.com"
@@ -21,6 +22,7 @@ const apartments = [
         rooms: 5,
         parking: true,
         immediate: false,
+        features: ["AC", "Indorr Plubming", "Elevator", "Terasse"],
         contactDetails: {
             name: "William",
             email: "will@i.am"
@@ -33,6 +35,7 @@ const apartments = [
         rooms: 3,
         parking: false,
         immediate: true,
+        features: ["Elevator", "Terasse"],
         contactDetails: {
             name: "Rickay",
             email: "rrrrick@cucumber.com"
@@ -45,6 +48,7 @@ const apartments = [
         rooms: 4,
         parking: false,
         immediate: false,
+        features: ["AC", "Elevator", "Terasse"],
         contactDetails: {
             name: "Charles",
             email: "charles.smith@coldmail.com"
@@ -57,6 +61,7 @@ const apartments = [
         rooms: 6,
         parking: true,
         immediate: true,
+        features: ["AC", "Indorr Plubming", "Terasse"],
         contactDetails: {
             name: "Trevor",
             email: "t@noah.ark"

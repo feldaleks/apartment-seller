@@ -71,7 +71,9 @@ label{
     "i la a"
     "i lpr p"
     "i lr r"
-    "i lpark park";
+    "i lpark park"
+    "i lf f"
+    "i lcont contact";
     box-shadow: 1px 1px 3px #0a1612;
     margin: 20px;
     padding: 20px;
@@ -130,7 +132,9 @@ button:active{background-color: #443729;}
     grid-area: lpark;
 }
 
-.result>.l-immediate{}
+.result>.l-immediate{
+    grid-area: lcont;
+}
 
 .result>.address{
     grid-area: a;
@@ -146,9 +150,13 @@ button:active{background-color: #443729;}
 
 .result>.parking{
     grid-area: park;
+    max-width: 32px;
+    max-height: 32px;
 }
 
-.result>.immediate{}
+.result>.immediate{
+    grid-area: contact;
+}
 
 .no-match{
     color: #DD6300;
@@ -158,4 +166,12 @@ button:active{background-color: #443729;}
     padding: 10px;
     border-radius: 5px;
     font-family: 'Raleway', sans-serif;
+}
+
+.l-features {
+    grid-area: lf;
+}
+
+.features {
+    grid-area: f;
 }
